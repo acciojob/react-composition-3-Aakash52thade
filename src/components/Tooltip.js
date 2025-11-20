@@ -4,7 +4,7 @@ const Tooltip = ({text, children}) => {
 
     const [show, setShow] = useState(false);
   return (
-    <span className="tootip"
+    <span className="tooltip"
       onMouseEnter={() => setShow(true)}
       onMouseLeave={() => setShow(false)}
        style={{ position: 'relative' }}
